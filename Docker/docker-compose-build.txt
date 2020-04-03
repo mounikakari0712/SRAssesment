@@ -1,0 +1,10 @@
+version: '1'
+
+services:
+  app:
+    build: .
+    image: mounika0712/nginx:v1
+    ports:
+      - 80:80
+  nginx:
+    image: nginx:alpine
